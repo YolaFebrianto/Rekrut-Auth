@@ -1,0 +1,222 @@
+body{
+	padding: 0;
+	margin: 0;
+	top: 0;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover{
+	color: white;
+	text-decoration: none;
+}
+/*---------Navbar----------------*/
+.navbar{
+	background: #263238;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+nav a.active {
+  color: #444;
+  cursor: default;
+}
+
+footer{
+	margin-top: 50px;
+	clear: both;
+	background: rgb(32, 32, 32);
+	color: white;
+	padding: 31px;
+}
+
+img{
+	height: 50px;
+	width: 50px;
+	margin-right: 20px;
+}
+
+
+
+
+
+
+
+section{
+	margin-top: 100px;
+}
+
+section img{
+	width:40%;
+	height: 40%;
+}
+
+.carousel-caption{
+	margin-left: 23%;
+	height:100%;
+}
+
+.item img{
+	margin-left: 8%;
+}
+
+.carousel-caption h3{
+	font-family: Josefin Slab;
+	font-weight: bold;
+	margin-top: 120px;
+}
+
+.carousel-caption p{
+	font-family: Josefin Slab;
+	font-size: 16px;
+}
+.app-caption {
+	margin: -320px 0px 0px 170px;
+}
+
+.app-caption h2{
+	font-family: Josefin Slab;
+	font-weight: bold;
+}
+
+.app-caption p{
+	font-family: Century Gothic;
+	font-size: 14px;
+}
+
+.web-caption{
+	width: 370px;
+	margin: -270px 0px 0px 285px;
+}
+
+.web-caption h2{
+	font-family: Josefin Slab;
+	font-weight: bold;
+}
+
+.web-caption p{
+	font-family: Century Gothic;
+	font-size: 14px;
+}
+
+#app-detail p{
+	font-family: Century Gothic;
+	font-size: 14px;;
+	margin: 15px 0px 0px 170px;
+}
+#web-detail p{
+	font-family: Century Gothic;
+	font-size: 14px;;
+	margin: 15px 0px 0px 170px;
+}
+
+.img1{
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+
+}
+
+.img1:hover{
+	opacity:0.5;
+	filter:alpha(opacity=30);
+	-webkit-filter:hue-rotate(20deg) ;
+	content: "";
+	border: 1px solid #4F4F50;
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color: white;
+	text-decoration: none;
+}
+.btn-primary{
+	width: 90px;
+}
+
+table{
+	padding:8px
+	bix-sizing:border-box;
+	font-family: Calibri;
+}
+
+th, td{
+	padding:4px 6px;
+}
+
+th{
+	background-color: #5bc0de;
+	color:white;
+}
+
+.mix-table th,.mix-table td{
+	vertical-align: top;
+	padding:10px 7px;
+	margin:0;
+}
+.mix-table tr:nth-child(odd){
+	background:#fff;
+	color:black;
+}
+
+.mix-table tr:nth-child(even){
+	background-color: #fff;
+}
+
+.btn-md{
+	margin-top: 6%;
+}
+
+.modal-up{
+	margin-left: 600px;
+	background-color: white;
+	color: black;
+	font-size: 20px;
+	border:1px solid black;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.modal-up:hover{
+	background-color:#31343c;
+	color: white;
+}
+
+.log-out a{
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 8px;
+}
+

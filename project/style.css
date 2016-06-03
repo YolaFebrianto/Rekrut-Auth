@@ -1,0 +1,12 @@
+a{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color: white;
+	text-decoration: none;
+}
+.btn-primary{
+	width: 70px;
+}

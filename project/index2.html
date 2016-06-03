@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="ckeditor/ckeditor.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row"></div>
+			<form class="form-horizontal" role="form" method="post">
+	    		<div class="form-group">
+			      	<label class="control-label col-sm-2">Tujuan</label>
+				    <div class="col-sm-4">
+			        	<select class="form-control">
+			        		<option></option>
+			        	</select>
+	    			</div>   
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-2">Isi Respon</label>
+					<div class="col-sm-8">
+			    		<textarea name="isi_artikel"  class="ckeditor"></textarea>
+			    	</div>
+			    </div>
+			    <div class="form-group">        
+					<div class="col-sm-offset-9 col-sm-2">
+			        	<button type="submit" id="kirim" class="btn btn-primary"><a href="#">Kirim</a></button>
+			        </div>
+			    </div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
